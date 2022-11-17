@@ -1,0 +1,33 @@
+.dividerContainer{
+    display: flex;
+
+    .divider{
+        margin-left: 550px;
+        margin-top: 80px;
+
+        ul{
+            display: flex;
+            list-style: none;
+
+            li{
+                margin: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                h1{
+                    font-size: 40px;
+                    color: white;
+                    font-weight: 700;
+                }
+
+                span{
+                    font-size: 18px;
+                    color:  #f9faf7;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

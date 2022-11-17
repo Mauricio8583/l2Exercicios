@@ -1,0 +1,33 @@
+.cardsContainer{
+    display: flex;
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .mainTitle{
+            margin: 30px;
+            text-align: center;
+
+            h2{
+                font-size: 28px;
+                color: white;
+                font-weight: 700;
+            }
+        }
+
+        .cardsImages{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 400px;
+                height: 700px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,48 @@
+.introContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .texts{
+            width: 400px;
+            margin: 50px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            span{
+                font-size: 18px;
+                color: #f8faf9;
+                font-weight: 500;
+            }
+
+            h1{
+                font-size: 60px;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        .squares{
+            width: 100%;
+
+            img{
+                margin: 80px;
+            }            
+        }
+
+        .sponsors{
+            
+            img{
+                margin: 30px;
+            }
+        }
+
+    }
+}

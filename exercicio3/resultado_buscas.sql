@@ -1,0 +1,3 @@
+SELECT Pessoas.Nome, Pagamentos.DT_Pagamento, Contratos.Valor_parcela FROM Pessoas INNER JOIN Pagamentos ON Pessoas.Id = Pagamentos.PessoaID INNER JOIN Contratos ON Contratos.Id = Pessoas.ContratoID WHERE Pessoas.Inadimplente = 'S'
+
+SELECT Pessoas.Nome, Contratos.Valor_parcela * Contratos.Parcelas FROM Pessoas INNER JOIN Contratos ON Pessoas.ContratoID = Contratos.Id WHERE Pessoas.Inadimplente = 'N'

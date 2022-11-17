@@ -1,0 +1,113 @@
+.footerContainer{
+    display: flex;
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 600px;
+        margin-top: 50px;
+
+        .left{
+            height: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid #757578;
+
+            .main{
+                display: flex;
+
+                h2{
+                    margin-left: 8px;
+                    color: white;
+                }
+            }
+
+            .leftFooter{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                span{
+                    margin: 5px;
+                    color: #f9faf7;
+                }
+            }
+        }
+
+        .center{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            border: 1px solid #757578;
+
+            .menuList{
+                list-style: none;
+
+                li{
+                    margin: 8px;
+                    font-size: 16px;
+                    color: white;
+                }
+            }
+
+            .account{
+                border-radius: 20px;
+                width: 100px;
+                height: 40px;
+                background-color: #3565ea;
+                color: white;
+                margin-left: 50px;
+            }
+
+            .iconsList{
+                display: flex;
+                list-style: none;
+
+                li{
+                    margin: 10px;
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        .right{
+            height: 280px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #757578;
+
+            .mainText{
+                margin-top: 20px;
+                margin-left: 20px;
+
+                span{
+                    color: #f9faf7;                    
+                }
+            }
+
+            .sigIn{
+                display: flex;
+
+                input{
+                    border-radius: 20px;
+                    height: 40px;
+                    width: 200px;
+                }
+
+                button{
+                    border-radius: 15px;
+                    height: 40px;
+                    width: 70px;
+                    background-color: white;
+                    color: blue;
+                }
+            }
+        }
+    }
+}
